@@ -1,0 +1,43 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    "include": [
+        "~/.config/waybar/modules.json"
+    ],
+    "modules-left": [
+        "custom/sep",
+        "hyprland/workspaces",
+        "custom/sep",
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "cpu",
+        "custom/sep",
+        "disk",
+        "custom/sep",
+        "memory",
+        "bluetooth",
+        "backlight",
+        "network",
+        "battery",
+        "pulseaudio",
+        "custom/sep",
+        "clock",
+        "custom/sep",
+        "custom/exit"
+    ],
+    "disk": {
+        "path": "/",
+        "interval": 30,
+        "format": "{used} / {total}",
+        "tooltip-format": "Used: {used} of {total} ({percentage_used})",
+        "unit": "GiB",
+	"on-click": "gnome-system-monitor"
+    }
+}
+

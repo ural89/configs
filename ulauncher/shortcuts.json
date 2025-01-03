@@ -1,0 +1,52 @@
+{
+    "c8d89053-8d98-4f02-a987-43ceb8d7286f": {
+        "id": "c8d89053-8d98-4f02-a987-43ceb8d7286f",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1734963904.912145
+    },
+    "e8d40337-c3fc-4178-a63f-4c1ca8a168bd": {
+        "id": "e8d40337-c3fc-4178-a63f-4c1ca8a168bd",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1734963904.912184
+    },
+    "9db00144-f209-4a12-8670-414309232564": {
+        "id": "9db00144-f209-4a12-8670-414309232564",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1734963904.9122064
+    },
+    "c4ee26f4-2ac3-4b4c-8205-74cfe72600c7": {
+        "id": "c4ee26f4-2ac3-4b4c-8205-74cfe72600c7",
+        "name": "UnrealEngine",
+        "keyword": "UnrealEngine",
+        "cmd": "/mnt/archstoragenvme/UnrealEngine/Engine/Binaries/Linux/UnrealEditor -nohighdpi\n",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1735307598.3852527
+    },
+    "e555d8b2-ce5c-40c8-be6a-b80664efb04a": {
+        "id": "e555d8b2-ce5c-40c8-be6a-b80664efb04a",
+        "name": "BuildBlaster",
+        "keyword": "BuildBlaster",
+        "cmd": "kitty --hold bash -c \"\"/home/ural/GitHub/Blaster/build_blaster.sh; exec bash\n\n",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": true,
+        "added": 1735457174.4759345
+    }
+}
