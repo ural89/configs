@@ -7,6 +7,13 @@ map("n", "<leader>ff", "<cmd>lua require('fzf-lua').files()<CR>", opts) -- File 
 map("n", "<leader>fg", "<cmd>lua require('fzf-lua').live_grep()<CR>", opts) -- Live grep
 map("n", "<leader>fb", "<cmd>lua require('fzf-lua').buffers()<CR>", opts) -- Buffer search
 map("n", "<leader>fh", "<cmd>lua require('fzf-lua').help_tags()<CR>", opts) -- Help tags
+--
+-- Scroll down and center
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-f>", "<C-f>zz")
+
+-- Scroll up and center
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 local M = {}
 

@@ -29,10 +29,11 @@ vim.opt.expandtab = true  -- Use spaces instead of tabs
 vim.opt.relativenumber = true
 vim.opt.number = true     -- Show the absolute line number for the current line
 
-vim.cmd [[
-  highlight Normal guibg=none
-  highlight NonText guibg=none
-  highlight Normal ctermbg=none
-  highlight NonText ctermbg=none
-]]
+vim.opt.scrolloff = 5
+-- vim.cmd [[
+--   highlight Normal guibg=none
+--   highlight NonText guibg=none
+--   highlight Normal ctermbg=none
+--   highlight NonText ctermbg=none
+-- ]]
 require "plugins"
