@@ -10,4 +10,13 @@ edit = [
 open = [
 	{ run = 'xdg-open "$@"', desc = "Open" },
 ]
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"
 # ...

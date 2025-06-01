@@ -1,0 +1,6 @@
+[[openers]]
+run = "nvim %*"
+block = true
+desc = "Neovim"
+for = "text"
+
