@@ -22,18 +22,18 @@ for device_path in $all_device_paths; do
 if [[ -n "$model" && -n "$percent_int" ]]; then
   icon="🔋"  # Default icon
   color="white"  # Default color
-  if (( percent_int >= 80 )); then
+  if (( percent_int >= 70 )); then
     icon="🔋"
     color="green"
-  elif (( percent_int >= 20 )); then
+  elif (( percent_int >= 21 )); then
     icon=""
     color="yellow"
   else
-    icon="⚠️"
-    color="red"
+    icon=""
+    color="orange"
   fi
 
-  items+="<span foreground=\"$color\">$icon  $model: $percent_int%</span>\n"
+  items+="<span foreground=\"$color\"><b>$icon  $model: $percent_int%</b></span>\n"
 fi
 done
 
